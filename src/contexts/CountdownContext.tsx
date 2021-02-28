@@ -19,7 +19,7 @@ export default function CountdownContextProvider({ children }: CountdownProvider
 
     const { startNewChallenger } = useContext(ChallengesContext)
 
-    const timeInitial = 5 * 1
+    const timeInitial = 25 * 60
     const [time, setTime] = useState(timeInitial)
     const [isActive, setIsActive] = useState(false)
     const [hasFinished, setHasFinished] = useState(false)
