@@ -28,7 +28,7 @@ export default function Home({level, currentExperience, challengesCompleted}: Ho
       >
         <ExperienceBar />
         <CountdownContextProvider>
-          <section>
+          <section className={styles.box__container}>
             <div>
               <Perfil />
               <CompletedChallenges />
